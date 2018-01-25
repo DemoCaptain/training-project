@@ -1,4 +1,4 @@
-#Graduation design selection system
+# Graduation design selection system
 
 登录页
 ![view-login](img/view-login.png)
