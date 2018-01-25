@@ -1,0 +1,84 @@
+/* CSS Document */
+/* 导入初始化root.css 来自新浪的初始化css */
+@import url('root.css');
+.login-form{
+	position: relative;
+	width:360px;
+/* 	background-color:#F5F5F5; */	
+	margin:60px auto;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+.form-top{
+	position: relative;
+	margin-top: 40px;
+	padding-bottom: 40px; 
+	border-bottom: 1px solid #ddd;
+}
+h1{
+	margin-bottom: 20px; 
+}
+.form-input{					
+	position: relative;
+	margin:40px;
+}
+/* 定义输入框样式 */
+.input-control{					
+	padding-left: 38px;
+	width: 220px;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 1px solid #BDC4C9;
+}
+/* 定义标签<i>样式 */
+.font{
+	position: absolute;
+	margin-top: 9px;
+	margin-left: 14px;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	color: #C3C3C3;
+	text-transform: none;
+}
+.font.f-user:before{
+	content: "\f007";
+}
+.font.f-pwd:before{
+	content: "\f084";
+}
+/* 定义按钮样式 */
+.form-button{
+	position: relative;
+	margin-bottom: 30px;
+}
+.button-control{
+	width: 258px;
+	height: 40px;
+	color: #fff;
+	background-color: #399bff;
+	border: none;
+	border-radius: 3px;
+}
+/* 定义底部div样式 */
+.form-foot{
+	position: relative;
+	width: 360px;
+	height: 40px;
+}
+/* .font.f-reg:before{
+	content: "\f08e";
+}
+.font.f-fpw:before{
+	content: "\f023";
+} */
+.register{
+	position: relative;
+	float: left;
+	margin-left: 60px;
+}
+.forgot{
+	position: relative;
+	float: right;
+	margin-right: 60px;
+}
