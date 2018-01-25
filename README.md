@@ -6,10 +6,10 @@
 ### 结构
 
 ```
-- css       #css样式表
-- fonts		#字体文件
-- img		#图片
-- js		#js文件
-- login.html    #登录页面
-- index.html    #主页面
+- css       	# css样式表
+- fonts			# 字体文件
+- img			# 图片
+- js			# js文件
+- login.html    		# 登录页面
+- index.html		    # 主页面
 ```
