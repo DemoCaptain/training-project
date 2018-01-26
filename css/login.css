@@ -5,7 +5,7 @@
 	position: relative;
 	width:360px;
 /* 	background-color:#F5F5F5; */	
-	margin:60px auto;
+	margin:55px auto;
 	text-align: center;
 	border: 1px solid #ddd;
 }
@@ -40,6 +40,7 @@ h1{
 	font-size: 16px;
 	color: #C3C3C3;
 	text-transform: none;
+	font-style: normal;
 }
 .font.f-user:before{
 	content: "\f007";

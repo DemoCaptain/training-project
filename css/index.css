@@ -1,0 +1,163 @@
+@import url('root.css');
+body{
+	background: #D3DFED;
+}
+.div-index{
+	position: relative;
+	width: 960px;
+	height: 580px;
+	margin: 20px auto;
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 8px 8px 5px #BBC5CE;
+	transition:box-shadow 1s;
+	-webkit-transition:box-shadow 1s;
+}
+.div-index:hover{
+	box-shadow: 12px 12px 5px #BBC5CE;
+}
+/* 定义顶端导航栏样式 */
+.nav-top{
+	position: relative;
+	width: 960px;
+	height: 56px;
+	float: left;
+	border-bottom: 1px solid #ddd;
+}
+.nav-title{
+	position: relative;
+	width: 180px;
+	height: 40px;
+	margin-top: 10px;
+	float: left;
+	text-align: center;
+}
+.title-img{
+	width: 20px;
+	height: 20px;
+}
+.nav-search{
+	position: relative;
+	width: 240px;
+	height: 40px;
+	margin-top: 16px;
+	margin-left: 20px; 
+	float: left;
+	text-align: center;
+}
+.input-search{
+	width: 150px;
+	height: 24px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-right: 30px;
+	border-radius: 50px;
+	border: 1px solid #ddd;
+	outline: none;
+}
+.i-search:after{
+	position: absolute;
+	margin-top: -4px;
+	margin-left: -44px;
+	float: right;
+	font-family: "FontAwesome";
+	font-style: normal;
+	font-size: 16px;
+	line-height: 36px;
+	color: #555555;
+	text-transform: none;
+	content: "\f002";
+}
+.user{
+	position: relative;
+	width: 140px;
+	height: 40px;
+	float: right;
+	margin:10px auto; 
+}
+.user-img{
+	width: 36px;
+	height: 36px;
+	border-radius: 50px;
+}
+/* 定义左侧导航栏样式 */
+.nav-left{
+	position: relative;
+	width: 160px;
+	height: 524px;
+	float: left;
+	color: #F0FFF0;
+	background: #1F2831;
+}
+.nav-main{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.nav-more{
+	position: relative;
+	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-top: 1px solid #F0FFF0;
+}
+	/* 定义小标题样式 */
+.func-list{
+	position: relative;
+	width: 160px;
+	height: 36px;
+	font-size: 16px;
+	line-height: 36px;
+/* 	transition: 0.8s; */
+}
+.func-list:hover{
+/* 	margin-left: 36px; */
+	color: #FFFFFF;
+	background: #3D464D;
+}
+.f-func{
+	position: relative;
+	margin-top: 9px;
+	margin-left: 14px;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	font-style: normal;
+	line-height: 36px;
+	color: #C3C3C3;
+	text-transform: none;
+	margin-right: 15px; 
+}
+.f1:before{
+	content: "\f015";
+}
+.f2:before{
+	content: "\f003";
+}
+.f3:before{
+	content: "\f0c3";
+}
+.f4:before{
+	content: "\f080";
+}
+.f5:before{
+	content: "\f00a";
+}
+.f6:before{
+	content: "\f046";
+}
+.f7:before{
+	content: "\f219";
+}
+.f8:before{
+	content: "\f133";
+}
+.f9:before{
+	content: "\f041";
+}
+.f10:before{
+	content: "\f0eb";
+}
+.nav-h2{
+	margin: 6px auto;
+	margin-left: 18px;
+}

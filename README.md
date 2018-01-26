@@ -2,7 +2,8 @@
 
 登录页
 ![view-login](img/view-login.png)
-
+首页
+![view-index](img/view-index.png)
 ### 结构
 
 ```
