@@ -48,17 +48,18 @@ body{
 .input-search{
 	width: 150px;
 	height: 24px;
+	font-family:"SimSun","宋体","Arial";
 	font-size: 14px;
 	padding-left: 20px;
-	padding-right: 30px;
+	padding-right: 32px;
 	border-radius: 50px;
 	border: 1px solid #ddd;
 	outline: none;
 }
 .i-search:after{
 	position: absolute;
-	margin-top: -4px;
-	margin-left: -44px;
+	margin-top: -5px;
+	margin-left: -26px;
 	float: right;
 	font-family: "FontAwesome";
 	font-style: normal;
@@ -118,7 +119,7 @@ body{
 .f-func{
 	position: relative;
 	margin-top: 9px;
-	margin-left: 14px;
+	margin-left: 18px;
 	font-family: "FontAwesome";
 	font-size: 16px;
 	font-style: normal;
@@ -160,4 +161,12 @@ body{
 .nav-h2{
 	margin: 6px auto;
 	margin-left: 18px;
+}
+/* 定义主要内容展示div样式 */
+.div-main{
+	position: relative;
+	width: 788px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid #f00;
 }

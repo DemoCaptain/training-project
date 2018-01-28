@@ -1,17 +1,21 @@
 /* CSS Document */
 /* 导入初始化root.css 来自新浪的初始化css */
 @import url('root.css');
+body{
+	background: #EDF4FA;
+}
 .login-form{
 	position: relative;
 	width:360px;
-/* 	background-color:#F5F5F5; */	
+	background: #ffffff;	
 	margin:55px auto;
 	text-align: center;
-	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 .form-top{
 	position: relative;
 	margin-top: 40px;
+	padding-top: 40px;
 	padding-bottom: 40px; 
 	border-bottom: 1px solid #ddd;
 }
